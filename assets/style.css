@@ -1,0 +1,36 @@
+html {
+	height: 100vh;
+	color: #000;
+}
+
+#clock{
+    margin: auto;
+    width: 33.3vw;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+#status_display{
+    font-size: 42px;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 2;
+}
+
+#clock_display{
+    font-size: 42px;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 2;
+}
+
+#keypad{
+    justify-content: space-around;
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 2;
+}
+
+button{
+    
+}
